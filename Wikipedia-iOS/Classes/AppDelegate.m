@@ -145,7 +145,7 @@
     
     NSHTTPCookieStorage *cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage]; 
     [cookieStorage setCookieAcceptPolicy:NSHTTPCookieAcceptPolicyAlways];
-    [CDVURLProtocol registerPGHttpURLProtocol];
+    [CDVURLProtocol registerURLProtocol];
     
     return [super init];
 }
