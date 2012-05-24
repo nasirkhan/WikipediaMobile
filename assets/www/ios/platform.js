@@ -68,8 +68,7 @@ function popupMenu(items, callback, options) {
 
 chrome.addPlatformInitializer(function() {
 	console.log("Logging in!");
-    window.plugins.FB = CDV.FB;
-	window.plugins.FB.init("[FB-APP-ID]", function() {
+	CDV.FB.init("[FB-APP-ID]", function() {
 		console.log("failed FB init:(");
 	});
 	console.log("Logged in!");
@@ -114,19 +113,19 @@ function shareFB() {
 	var title = app.getCurrentTitle();
 
 	var share = function() {
-		window.plugins.FB.dialog({
+		CDV.FB.dialog({
 			method: 'feed',
 			link: url,
 			caption: title
 		});
 	};
 
-	window.plugins.FB.getLoginStatus(function(status) {
+	CDV.FB.getLoginStatus(function(status) {
 		console.log("status is " + JSON.stringify(status));
 		if(status.status === "connected") {
 			share();
 		} else {
-			window.plugins.FB.login({scope: ""}, share);
+			CDV.FB.login({scope: ""}, share);
 		}
 	});
 }
