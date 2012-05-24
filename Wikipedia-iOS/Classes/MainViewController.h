@@ -8,6 +8,6 @@
 
 #import "CDVDeprecated.h"
 
-@interface MainViewController : PGViewController
+@interface MainViewController : CDVViewController
 
 @end
