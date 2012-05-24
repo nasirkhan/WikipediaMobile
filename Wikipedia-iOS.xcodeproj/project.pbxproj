@@ -60,7 +60,6 @@
 		D4BE9637145DFD2D0025EC00 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BE9636145DFD2D0025EC00 /* Default@2x.png */; };
 		D4BE9639145DFD2D0025EC00 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4BE9638145DFD2D0025EC00 /* Capture.bundle */; };
 		D4BE963F145DFD2D0025EC00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BE963E145DFD2D0025EC00 /* AppDelegate.m */; };
-		D4E8A4B514D08ED400993351 /* ActionSheet.js in Sources */ = {isa = PBXBuildFile; fileRef = D4E8A4B314D08ED400993351 /* ActionSheet.js */; };
 		D4E8A4B614D08ED400993351 /* ActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E8A4B414D08ED400993351 /* ActionSheet.m */; };
 /* End PBXBuildFile section */
 
@@ -505,7 +504,6 @@
 			files = (
 				D4BE961F145DFD2D0025EC00 /* main.m in Sources */,
 				D4BE963F145DFD2D0025EC00 /* AppDelegate.m in Sources */,
-				D4E8A4B514D08ED400993351 /* ActionSheet.js in Sources */,
 				D4E8A4B614D08ED400993351 /* ActionSheet.m in Sources */,
 				61992AAF14F6DAE1009FE7AC /* MainViewController.m in Sources */,
 				6108B4001512AF2900779B71 /* TwitterPlugin.m in Sources */,
